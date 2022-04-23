@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    margin: 0px;
+}
+
+.body {
+    display: flex;
+    background-color: #F8B195;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #C06C84;
+    border-radius: 12px;
+}
+
+.main {
+    display: flex;
+    padding: 0px 30px 30px;
+    flex-direction: column;
+}
+
+.sidebar {
+    background-color: #355C7D;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    min-width: 200px;
+}
+
+footer {
+    background-color: #6C5B7B;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+    padding: 10px 10px 0px 10px;
+    width: 100%;
+}
