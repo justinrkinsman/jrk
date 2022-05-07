@@ -1,11 +1,11 @@
 body {
     display: flex;
     margin: 0px;
+    background-color: #F8B195;
 }
 
-.body {
+.body, .bodyRPS, .bodyEAS, .bodyCalc{
     display: flex;
-    background-color: #F8B195;
 }
 
 .post1, .post2 {
