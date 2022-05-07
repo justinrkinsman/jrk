@@ -8,7 +8,7 @@ body {
     background-color: #F8B195;
 }
 
-.text {
+.post1, .post2 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
