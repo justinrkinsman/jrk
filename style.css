@@ -4,13 +4,16 @@ body {
     background-color: #F8B195;
 }
 
-.body, .bodyRPS, .bodyEAS, .bodyCalc{
+.body{
     display: flex;
 }
 
 .bodyRPS, .bodyEAS, .bodyCalc{
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .post1, .post2 {
@@ -30,6 +33,7 @@ body {
     display: flex;
     padding: 0px 30px 30px;
     flex-direction: column;
+    margin-right: 200px;
 }
 
 .sidebar {
@@ -38,6 +42,9 @@ body {
     flex-direction: column;
     margin: 0px;
     min-width: 200px;
+    height: 100vh;
+    position: absolute;
+    right: 0;
 }
 
 footer {
