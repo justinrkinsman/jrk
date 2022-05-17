@@ -22,10 +22,10 @@ body {
     flex-wrap: wrap;
     background-color: #C06C84;
     border-radius: 12px;
+    margin-bottom: 50px;
 }
 
 .post1 {
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 
