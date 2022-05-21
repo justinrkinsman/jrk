@@ -25,6 +25,19 @@ body {
     margin-bottom: 50px;
 }
 
+p::first-letter {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+*::selection {
+    background-color: orange
+}
+
+span {
+    font-weight: bold;
+}
+
 .post1 {
     margin-bottom: 50px;
 }
@@ -42,9 +55,11 @@ body {
     flex-direction: column;
     margin: 0px;
     min-width: 200px;
-    height: 100vh;
     position: absolute;
     right: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 footer {
