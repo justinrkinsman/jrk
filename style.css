@@ -4,6 +4,19 @@ body {
     background-color: #F8B195;
 }
 
+.dark-mode {
+    display: flex;
+    margin: 0px;
+    background-color: black;
+    color: white
+}
+
+.light-mode {
+    display: flex;
+    margin: 0px;
+    background-color: #F8B195
+}
+
 .body{
     display: flex;
 }
@@ -60,8 +73,7 @@ span {
     flex-direction: column;
     margin: 0px;
     min-width: 200px;
-    position: absolute;
-    right: 0;
+    height: 100vh;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
