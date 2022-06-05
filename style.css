@@ -17,6 +17,18 @@ body {
     background-color: #F8B195
 }
 
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green
+}
+
+.purple {
+    background-color: purple
+}
+
 .body{
     display: flex;
 }

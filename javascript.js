@@ -7,6 +7,20 @@ function lightMode() {
     element.className = 'light-mode'
 }
 
+function blue(){
+    let element = document.body;
+    element.className = 'blue'
+}
+
+function green(){
+    let element = document.body;
+    element.className = 'green'
+}
+
+function purple(){
+    let element = document.body;
+    element.className = 'purple'
+}
 /*Rock, Paper, Scissors game*/
 let playerSelection = document.querySelectorAll('button')
 
